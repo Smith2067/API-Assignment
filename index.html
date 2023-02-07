@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <header>
+        <h1>Random Person Generator Using Random Data API</h1>
+        <p>'Random Data API' is made by Marko Manojlovic. (<a href="https://random-data-api.com/">https://random-data-api.com/</a>)</p>
+        <p>'This Person Does Not Exist' is made by Tero Karras. (<a href="https://thispersondoesnotexist.com/">https://thispersondoesnotexist.com/</a>)</p>
+    </header>
+
+    <button onclick="testing()">Generate a Person!</button>
+
+    <div id="personContainer">
+        <div>
+            <div id="personName">first_name, last_name</div>
+            <img id="personPicture" height="400px" width="400px">
+        </div>
+        <div id="personInfo">
+            <div id="personDateofBirth">date_of_birth</div>
+            <div id="personGender">gender</div>
+            <div id="personOccupation">employment[0]</div>
+            <div id="personSkill">employment[1]</div>
+            <div id="personPhoneNumber">phone_number</div>
+            <div id="personCountryState">address[0], address[5], address[6]</div>
+            <div id="personAdressZip">address[3], address[4]</div>
+            <div id="personCreditNumber">credit_card[0]</div>
+        </div>
+    </div>
+
+<footer>
+    Made for a school project.
+</footer>
+<script src='main.js'></script>  
+</body>
+</html>
